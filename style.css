@@ -252,30 +252,14 @@ input:focus, textarea:focus, select:focus, button:focus {
 /*---------- Button css End -------*/
 
 .prt_btn {
-    height: 50px;
-    line-height: 50px;
-    color: #ffffff;
     font-size: 15px;
     font-weight: 400;
     border-radius: 0px;
-    padding: 0 20px;
-    min-width: 140px;
+    padding: 10px;
     outline: none;
     cursor: pointer;
-    display: inline-block;
     text-align: center;
     text-transform: capitalize;
-    background-color: #f6483b;
-    border: 1px solid #f6483b;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.prt_btn:hover, .prt_btn:focus {
-    color: #f6483b;
     background-color: #111111;
     border: 1px solid #f6483b;
     -webkit-transition: all 0.3s;
@@ -283,6 +267,22 @@ input:focus, textarea:focus, select:focus, button:focus {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    margin-top: 25px;
+    color: #f6483b;
+    min-width: 140px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.prt_btn:hover, .prt_btn:focus {
+    border: 1px solid #f6483b;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: #f6483b;
+    color: #ffffff;
 }
 
 /*---------- Typography css End -------*/
@@ -1066,15 +1066,15 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 .prt_contact_details_box.details_box1 {
-    background-image: url(../images/content/dtl_box1.jpg);
+    background-image: url(dtl_box1.jpg);
 }
 
 .prt_contact_details_box.details_box2 {
-    background-image: url(../images/content/dtl_box2.jpg);
+    background-image: url(dtl_box2.jpg);
 }
 
 .prt_contact_details_box.details_box3 {
-    background-image: url(../images/content/dtl_box3.jpg);
+    background-image: url(dtl_box3.jpg);
 }
 
 /*---------- Services css Start -------*/
@@ -1259,7 +1259,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_couter_wrapper {
     display: inline-block;
     width: 100%;
-    background-image: url(../images/content/counter_bg.jpg);
+    background-image: url(counter_bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1329,7 +1329,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 #circles-1 {
-    background-image: url(../images/content/progress_1.png);
+    background-image: url(progress_1.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1337,7 +1337,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 #circles-2 {
-    background-image: url(../images/content/progress_2.png);
+    background-image: url(progress_2.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1345,7 +1345,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 #circles-3 {
-    background-image: url(../images/content/progress_3.png);
+    background-image: url(progress_3.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1353,7 +1353,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 #circles-4 {
-    background-image: url(../images/content/progress_4.png);
+    background-image: url(progress_4.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1361,7 +1361,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 #circles-5 {
-    background-image: url(../images/content/progress_5.png);
+    background-image: url(progress_5.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1369,7 +1369,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 #circles-6 {
-    background-image: url(../images/content/progress_6.png);
+    background-image: url(progress_6.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1377,7 +1377,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 #circles-7 {
-    background-image: url(../images/content/progress_7.png);
+    background-image: url(progress_7.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1385,7 +1385,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 #circles-8 {
-    background-image: url(../images/content/progress_8.png);
+    background-image: url(progress_9.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1476,7 +1476,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 
 .prt_portfolio_img {
     display: inline-block;
-    width: auto;
+    width: 100%;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -1486,6 +1486,15 @@ input:focus, textarea:focus, select:focus, button:focus {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    border: 1px solid;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.prt_portfolio_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .prt_portfolio_img:after {
@@ -1576,6 +1585,13 @@ input:focus, textarea:focus, select:focus, button:focus {
     color: #000000;
 }
 
+.prt_portfolio_text a {
+    color: black;
+    display: inline-block;
+    margin-top: 10px;
+    border-bottom: 1px solid #000000
+}
+
 /*---------- Footer css Start -------*/
 
 .prt_footer_wrapper {
@@ -1664,49 +1680,6 @@ input:focus, textarea:focus, select:focus, button:focus {
     padding-top: 100px;
 }
 
-.thumb-wrapper {
-    position: relative;
-    transition: all 0.5s;
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.portfolio-caption {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #f6483bed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    transition: 0.2s all linear;
-    justify-content: center;
-    opacity: 0;
-}
-
-.portfolio-title {
-    color: #FFFFFF;
-    margin: 0;
-    font-size: 15px;
-    text-transform: uppercase;
-    padding: 0 10px;
-}
-
-.portfolio-category {
-    display: block;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 5px;
-}
-
-.thumb-wrapper:hover .portfolio-caption {
-    opacity: 1;
-}
-
 .img-wrapper {
     height: 246px;
 }
@@ -1716,16 +1689,15 @@ input:focus, textarea:focus, select:focus, button:focus {
     width: 100%;
 }
 
-.prt_portfolio_wrapper .container::before, .prt_portfolio_wrapper .row::before {
-    content: none;
+.portfolio-title {
+    color: #FFFFFF;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
-.prt_portfolio_wrapper .row::after {
-    clear: inherit;
-}
-
-.prt_portfolio_wrapper [class*="col-"] {
-    margin-bottom: 30px;
+.prt_portfolio_wrapper .row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .after {
@@ -1740,6 +1712,47 @@ input:focus, textarea:focus, select:focus, button:focus {
     width: 100%;
     height: 100%;
     background: #000000e0;
+}
+
+.tags {
+    margin: 35px 0;
+}
+
+.tags span {
+    padding: 8px 10px;
+    border: 1px solid #f6483b;
+    margin-right: 10px;
+    background-color: #111111;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.h-242 {
+    height: 242px;
+}
+
+.h-280 {
+    height: 280px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.h-360 {
+    height: 360px;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.h-478 {
+    height: 478px;
 }
 
 /*---------- Responsive css Start -------*/
@@ -1849,9 +1862,6 @@ input:focus, textarea:focus, select:focus, button:focus {
     .prt_portfolio_wrapper .img-wrapper {
         height: auto;
     }
-    .prt_portfolio_wrapper [class*="col-"] {
-        margin-bottom: 50px;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1899,6 +1909,36 @@ input:focus, textarea:focus, select:focus, button:focus {
         right: 0;
         margin: 0px auto;
     }
+    .prt_portfolio_text {
+        padding: 15px 30px;
+        padding-right: 0;
+    }
+    .h-200 {
+        height: 130px;
+    }
+    .h-242 {
+        height: 115px;
+    }
+    .h-280{
+        height: 200px;
+    }
+    .h-300 {
+        height: 180px;
+    }
+    .h-360 {
+        height: 175px;
+    }
+    .h-400 {
+        height: 230px;
+    }
+    .h-478 {
+        height: 235px;
+    }
+    .p-h {
+        padding: 0;
+        height: 130px;
+    }
+   
 }
 
 @media (max-width: 767px) {
@@ -1967,15 +2007,25 @@ input:focus, textarea:focus, select:focus, button:focus {
     .prt_home_wrapper h1 {
         font-size: 29px;
         line-height: 40px;
-        background-position: 15px -171px;
-        width: 66%;
+        background-position: 18px -9px;
+        width: 77%;
         margin-top: 41vh;
+        left: 51%;
     }
     .prt_home_wrapper video {
         height: 100%;
     }
     .prt_contact_wrapper [class*="col"] {
         margin-bottom: 30px;
+    }
+    .h-242, .h-360, .h-478, .p-h, .h-280,.h-300, .h-400 {
+        height: 215px;
+    }
+    .prt_menu_wrapper a.prt_left{
+        left: -45px;
+    }
+    .prt_menu_wrapper a.prt_right{
+        right: -20px;
     }
 }
 
@@ -2034,8 +2084,5 @@ input:focus, textarea:focus, select:focus, button:focus {
     }
     .prt_services_slider_wrapper {
         height: 900px;
-    }
-    .prt_home_wrapper h1 {
-        font-size: 25px;
     }
 }
